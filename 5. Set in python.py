@@ -20,3 +20,26 @@ print(my_set)   # Output: {1, 2, 3, 23}
 # See if an item
 print(444 in my_set)
 
+# Add touple at set
+my_set.add((45, "mango"))
+print(my_set)
+
+# Add touple at set
+my_set.add((45, "mango", "orange"))
+print(my_set)
+
+# Union, intersection, difference
+set_1 = {1, 2, 4, 6}
+set_2 = {3, 6, 7}
+
+print("Set_1: ", set_1)
+print("Set_2: ", set_2)
+
+union = set_1.union(set_2) 
+print("Union: ", union)
+
+union = set_1.intersection(set_2) 
+print("Interaction: ", union)
+
+union = set_1.difference(set_2) 
+print("Difference: ", union)
